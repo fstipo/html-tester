@@ -6,11 +6,6 @@ body {
 
 .section__navigation {
   max-width: 14rem;
-  /* max-width: 6rem;*/
-}
-
-.navigation__logo--text {
-  font-size: 1.8rem;
 }
 
 .section__navigation.collapsed {
@@ -21,7 +16,15 @@ body {
   display: none;
 }
 
+.navigation__logo--text {
+  font-size: 1.8rem;
+}
+
+.navigation__box {
+  margin-left: 1.5rem;
+}
+
 .section__navigation.collapsed .navigation__box {
   align-items: center;
-  background-color: brown;
+  margin-left: 0px;
 }
