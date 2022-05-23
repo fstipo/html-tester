@@ -28,7 +28,7 @@
     <div class="row min-vh-100">
       <div class="container-fluid d-flex">
         <!-- Sidebar -->
-        <div class="section__navigation col bg-dark collapsed">
+        <div class="section__navigation col bg-dark">
           <nav class="d-flex flex-column navbar-dark pt-4 d-flex flex-column">
             <div class="d-flex navigation__logo--box m-auto mb-4 text-danger">
               <a
@@ -36,53 +36,57 @@
                 href="#"
               >
                 <i class="bi bi-dice-5" role="img" aria-label="dice-5"></i>
-                <span class="ms-2 d-none">Logo</span></a
+                <span class="navigation__link-title ms-2">Logo</span></a
               >
             </div>
             <ul
-              class="navbar-nav d-flex flex-column justify-content-center align-items-center"
+              class="navigation__box navbar-nav d-flex flex-column justify-content-center ms-4"
             >
               <li class="nav-item h3">
                 <a class="nav-link" href="#">
                   <i class="bi bi-house-door"></i>
-                  <span class="ms-2 d-none">Home</span></a
+                  <span class="navigation__link-title ms-2">Home</span></a
                 >
               </li>
               <li class="nav-item h3">
                 <a class="nav-link" href="#">
                   <i class="bi bi-folder2-open"></i>
-                  <span class="ms-2 d-none">Project</span></a
+                  <span class="navigation__link-title ms-2">Project</span></a
                 >
               </li>
               <li class="nav-item h3 mt-5">
                 <a class="nav-link" href="#">
                   <i class="bi bi-speedometer2"></i>
-                  <span class="ms-2 d-none">Dashboard</span></a
+                  <span class="navigation__link-title ms-2">Dashboard</span></a
                 >
               </li>
               <li class="nav-item h3">
                 <a class="nav-link" href="#">
                   <i class="bi bi-table"></i>
-                  <span class="ms-2 d-none">Orders</span></a
+                  <span class="navigation__link-title ms-2">Orders</span></a
                 >
               </li>
               <li class="nav-item h3">
                 <a class="nav-link" href="#">
                   <i class="bi bi-grid"></i>
-                  <span class="ms-2 d-none">Products</span></a
+                  <span class="navigation__link-title ms-2">Products</span></a
                 >
               </li>
               <li class="nav-item h3">
                 <a class="nav-link" href="#">
                   <i class="bi bi-person-circle"></i>
-                  <span class="ms-2 d-none">Costumers</span></a
+                  <span class="navigation__link-title ms-2">Costumers</span></a
                 >
                 <!-- <span class="none">Costumers</span></a> -->
               </li>
               <li class="nav-item h3 mt-5">
-                <a class="nav-link" href="#" type="button">
+                <a
+                  class="navigation__collapse-button nav-link"
+                  href="#"
+                  type="button"
+                >
                   <i class="bi bi-chevron-double-left"></i>
-                  <span class="ms-2 d-none">Collapse</span></a
+                  <span class="navigation__link-title ms-2">Collapse</span></a
                 >
               </li>
             </ul>

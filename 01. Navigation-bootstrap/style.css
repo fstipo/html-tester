@@ -16,3 +16,12 @@ body {
 .section__navigation.collapsed {
   max-width: 6rem;
 }
+
+.section__navigation.collapsed .navigation__link-title {
+  display: none;
+}
+
+.section__navigation.collapsed .navigation__box {
+  align-items: center;
+  background-color: brown;
+}
