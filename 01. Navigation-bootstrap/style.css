@@ -1,3 +1,18 @@
 body {
   background-color: rgb(255, 140, 0);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.section__navigation {
+  max-width: 14rem;
+  /* max-width: 6rem;*/
+}
+
+.navigation__logo--text {
+  font-size: 1.8rem;
+}
+
+.section__navigation.collapsed {
+  max-width: 6rem;
 }
